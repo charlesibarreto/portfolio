@@ -10,7 +10,6 @@ A professional collection of simple, attractive, and fully responsive portfolio 
 ---
 
 ## 🚀 Templates
-
 1.  **[Template 001: Basic Single Page (Live Demo)](https://hereandnowai.github.io/portfolio-website-free-templates-created-by-here-and-now-ai/)** - A clean, single-page layout with hero, about, projects, and contact sections.
 2.  **Modern Grid Layout** (Coming Soon)
 3.  **Interactive Portfolio** (Coming Soon)
