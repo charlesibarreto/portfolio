@@ -115,33 +115,40 @@ const CONFIG = {
   experience: [
     {
       role: "Mechatronics Architect",
-      company: "ASML EUV",
-      period: "2025 — Present",
-      description: "Architecting autonomous subsystems, robotics algorithms, and high‑precision calibration workflows for next‑gen EUV platforms.",
-      tech: ["Python", "MATLAB", "Control Systems", "Robotics"]
+      company: "ASML EUV & DUV",
+      period: "Jan 2021 — Present",
+      tech: ["Python", "MATLAB", "Shell", "Control Systems", "Robotics", "Diagnostics"]
     },
-    {
-      role: "Mechatronics Architect",
-      company: "ASML DUV",
-      period: "2021 — 2025",
-      description: "Developed automation pipelines, diagnostic dashboards, and reliability improvements delivering $3M+ annual savings.",
-      tech: ["Python", "Shell", "MATLAB", "Diagnostics"]
-    },
+
     {
       role: "Mechanical Engineer (Contractor)",
       company: "ASML EUV",
-      period: "2020",
-      description: "Designed cooling systems for 32G actuators and validated reliability using Siemens NX FEA.",
-      tech: ["NX", "FEA", "Mechanical Design"]
+      period: "May 2020 — Aug 2020",
+      tech: ["NX", "FEA", "Thermal Design"]
     },
+
+    {
+      role: "Mechanical Engineer Intern",
+      company: "ASML EUV",
+      period: "May 2019 — Aug 2019",
+      tech: ["NX", "MATLAB", "FEA"]
+    },
+
     {
       role: "Sub‑Team Lead",
       company: "Cornell Cup Robotics",
-      period: "2017 — 2020",
-      description: "Led development of precision manipulators and ROS‑based localization systems.",
-      tech: ["ROS", "Python", "Kinematics"]
+      period: "Sep 2017 — Dec 2020",
+      tech: ["ROS", "Python", "Kinematics", "Robotics"]
+    },
+
+    {
+      role: "Team Lead",
+      company: "VEX Robotics",
+      period: "Sep 2016 — May 2017",
+      tech: ["Mechanical Design", "Fabrication", "Robotics"]
     }
   ],
+
 
   // ─── Theme Configuration ────────────────────────────────────
   theme: {
