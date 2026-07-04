@@ -3,7 +3,7 @@
  * ║              PORTFOLIO CONFIGURATION FILE                    ║
  * ║                                                              ║
  * ║  Edit this file to personalize your entire portfolio.        ║
- * ║  No need to touch HTML, CSS, or JS — everything is          ║
+ * ║  No need to touch HTML, CSS, or JS — everything is           ║
  * ║  driven from this single config.                             ║
  * ╚══════════════════════════════════════════════════════════════╝
  */
@@ -11,57 +11,57 @@
 const CONFIG = {
 
   // ─── Personal Info ───────────────────────────────────────────
-  name: "Ruthran Raghavan",
-  title: "Chief AI Scientist",
-  tagline: "Designing and deploying enterprise-grade AI systems that deliver measurable ROI.",
-  roles: ["Chief AI Scientist", "AI Automation Expert", "Multi-Agent Orchestrator", "Corporate Trainer"],
+  name: "Charles Barreto",
+  title: "Mechatronics Architect",
+  tagline: "Building high‑performance robotics, automation systems, and precision motion platforms.",
+  roles: ["Mechatronics Architect", "Robotics Engineer", "Automation Developer", "System Integrator"],
 
   about: {
     description: [
-      "I'm a Chief AI Scientist with 10+ years of experience designing, developing, and deploying enterprise-grade AI systems, specializing in LLM-powered applications and multi-agent orchestration.",
-      "Expert in building advanced RAG pipelines and complex automation workflows using LangChain and LangGraph to bridge the gap between cutting-edge AI research and real-world scalability.",
-      "A leading corporate trainer who has delivered 10,000+ hours of AI training to over 5,000 learners worldwide, enabling organizations to achieve 10x productivity improvements."
+      "Mechatronics Architect specializing in precision motion control, autonomous robotics, and multi‑domain system integration.",
+      "Experienced in developing automation pipelines, ROS/SLAM workflows, and high‑G calibration systems for mission‑critical platforms.",
+      "Delivered multi‑million‑dollar reliability improvements across ASML EUV and DUV platforms through automation, diagnostics, and system‑level optimization."
     ],
     resumeUrl: "docs/resume.pdf",
-    avatarUrl: "assets/images/profile.jpeg"  // Leave empty to use generated initials avatar
+    avatarUrl: "assets/images/profile.jpeg"
   },
 
   // ─── Social Links ───────────────────────────────────────────
   social: {
-    github: "https://github.com/hereandnowai",
-    linkedin: "https://linkedin.com/in/ruthranraghavan",
-    twitter: "https://twitter.com/hereandnowai",
-    email: "ruthran@hereandnow.co.in"
+    github: "https://github.com/charlesibarreto",
+    linkedin: "https://linkedin.com/in/charlesbarreto",
+    twitter: "",
+    email: "charlesibarreto@gmail.com"
   },
 
   // ─── Skills ─────────────────────────────────────────────────
   skills: [
-    { name: "LLMs / GenAI (GPT-5, Gemini)", level: 98, icon: "🤖" },
-    { name: "LangChain / LangGraph",       level: 95, icon: "🦜" },
-    { name: "Python / AI-ML Stack",       level: 95, icon: "🐍" },
-    { name: "Multi-Agent Systems",        level: 92, icon: "🤝" },
-    { name: "PyTorch / TensorFlow",       level: 90, icon: "🔥" },
-    { name: "RAG / Elasticsearch",        level: 90, icon: "📚" },
-    { name: "MCP Servers / Automation",   level: 88, icon: "⚙️" },
-    { name: "Docker / Kubernetes / Azure",level: 85, icon: "🐳" },
+    { name: "Precision Motion Control", level: 95, icon: "🎯" },
+    { name: "Python / MATLAB Automation", level: 93, icon: "🐍" },
+    { name: "Robotics (ROS / SLAM)", level: 90, icon: "🤖" },
+    { name: "System Architecture", level: 92, icon: "🧩" },
+    { name: "High‑G Testing & Calibration", level: 88, icon: "📈" },
+    { name: "Siemens NX / SolidWorks", level: 85, icon: "📐" },
+    { name: "Data Analysis / Diagnostics", level: 90, icon: "📊" },
+    { name: "CNC / 3D Printing / Electronics", level: 80, icon: "⚙️" }
   ],
 
   // ─── Projects ───────────────────────────────────────────────
   projects: [
     {
-      title: "Probot AI Professor",
-      description: "A multimodal AI professor capable of natural conversation, adaptive curriculum delivery, and speech synthesis for personalized learning.",
-      tech: ["Generative AI", "Speech Synthesis", "LLMs", "Python"],
+      title: "EUV Autonomous Subsystem Architecture",
+      description: "Architected autonomous subsystems and robotics control algorithms for next‑gen EUV platforms, improving 6‑DOF system performance under 13G–21G conditions.",
+      tech: ["Python", "MATLAB", "Control Systems", "Robotics"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: true,
-      category: "ai"
+      category: "robotics"
     },
     {
-      title: "Enterprise Multi-Agent Orchestrator",
-      description: "A complex multi-agent system built with LangGraph for autonomous enterprise operations, streamlining high-complexity workflows.",
-      tech: ["LangGraph", "LangChain", "OpenAI", "Python"],
+      title: "DUV Automation Pipeline",
+      description: "Developed Python/MATLAB automation tools reducing analysis time by ~96% and enabling $3M+ annual reliability improvements.",
+      tech: ["Python", "MATLAB", "Automation"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
@@ -69,94 +69,93 @@ const CONFIG = {
       category: "automation"
     },
     {
-      title: "Advanced RAG Pipelines",
-      description: "Large-scale Retrieval-Augmented Generation systems integrated with Elasticsearch and Haystack, boosting search accuracy by over 40%.",
-      tech: ["Elasticsearch", "Haystack", "RAG", "LLMs"],
+      title: "High‑G Calibration & Diagnostics",
+      description: "Built high‑precision calibration workflows for 6‑DOF systems operating under extreme acceleration environments.",
+      tech: ["MATLAB", "Python", "Data Analysis"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
-      featured: true,
-      category: "ai"
+      featured: false,
+      category: "robotics"
     },
     {
-      title: "MCP Automation Infrastructure",
-      description: "Developed robust Model Context Protocol (MCP) servers and clients for seamless communication between AI agents and external tools.",
-      tech: ["MCP", "TypeScript", "Node.js", "AI Agents"],
+      title: "Cornell Cup Robotics Manipulator",
+      description: "Led development of a 6‑DOF precision manipulator and 4‑DOF robotic arm with ROS‑based localization and control.",
+      tech: ["ROS", "Python", "Kinematics"],
+      liveUrl: "#",
+      githubUrl: "#",
+      image: "",
+      featured: false,
+      category: "robotics"
+    },
+    {
+      title: "Reticle Handling Prototype",
+      description: "Designed and validated reticle handling systems using Siemens NX and MATLAB, improving reliability and throughput.",
+      tech: ["NX", "MATLAB", "Mechanical Design"],
+      liveUrl: "#",
+      githubUrl: "#",
+      image: "",
+      featured: false,
+      category: "mechanical"
+    },
+    {
+      title: "Predictive Failure Detection System",
+      description: "Filed patent for a software‑based monitoring system enabling early detection of hardware wear and software failures.",
+      tech: ["Python", "Diagnostics", "System Monitoring"],
       liveUrl: "#",
       githubUrl: "#",
       image: "",
       featured: false,
       category: "automation"
-    },
-    {
-      title: "Predictive Maintenance AI",
-      description: "Predictive maintenance agents for industrial deployments that increased equipment uptime by 20% using real-time sensor data.",
-      tech: ["Python", "TensorFlow", "IoT", "Scikit-Learn"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
-      category: "industrial"
-    },
-    {
-      title: "AI Language Assessment Engine",
-      description: "An NLP-powered language evaluation system using CNNs and RNNs, improving assessment accuracy by 30% over manual methods.",
-      tech: ["NLP", "CNNs", "RNNs", "Python"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "",
-      featured: false,
-      category: "ai"
     }
   ],
 
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
     {
-      role: "Chief AI Scientist",
-      company: "Here And Now AI",
-      period: "2018 — Present",
-      description: "Leading the development of enterprise-grade AI automation frameworks and multi-agent systems. Delivered 180+ AI agents across finance, healthcare, and manufacturing sectors.",
-      tech: ["LangGraph", "LangChain", "OpenAI", "Python", "Azure"]
+      role: "Mechatronics Architect",
+      company: "ASML EUV",
+      period: "2025 — Present",
+      description: "Architecting autonomous subsystems, robotics algorithms, and high‑precision calibration workflows for next‑gen EUV platforms.",
+      tech: ["Python", "MATLAB", "Control Systems", "Robotics"]
     },
     {
-      role: "Data Scientist",
-      company: "HERE AND NOW – The Language Institute",
-      period: "2011 — 2023",
-      description: "Architected predictive modeling systems for personalized education. Built AI-powered language assessment engines reducing manual processing time by 40%.",
-      tech: ["Python", "TensorFlow", "Scikit-Learn", "SVM", "NLP"]
+      role: "Mechatronics Architect",
+      company: "ASML DUV",
+      period: "2021 — 2025",
+      description: "Developed automation pipelines, diagnostic dashboards, and reliability improvements delivering $3M+ annual savings.",
+      tech: ["Python", "Shell", "MATLAB", "Diagnostics"]
     },
     {
-      role: "M.Sc. Statistics & Psychology",
-      company: "Madras University",
-      period: "2010 — 2012",
-      description: "Specialized in advanced research and modeling, bridging cognitive neuroscience with AI architecture for human-like interaction design.",
-      tech: ["Statistical Modeling", "Cognitive Science", "Predictive Analytics"]
+      role: "Mechanical Engineer (Contractor)",
+      company: "ASML EUV",
+      period: "2020",
+      description: "Designed cooling systems for 32G actuators and validated reliability using Siemens NX FEA.",
+      tech: ["NX", "FEA", "Mechanical Design"]
+    },
+    {
+      role: "Sub‑Team Lead",
+      company: "Cornell Cup Robotics",
+      period: "2017 — 2020",
+      description: "Led development of precision manipulators and ROS‑based localization systems.",
+      tech: ["ROS", "Python", "Kinematics"]
     }
   ],
 
   // ─── Theme Configuration ────────────────────────────────────
   theme: {
-    // Primary accent color (buttons, links, highlights)
     primaryColor: "#6366F1",
-    // Secondary accent for gradients
     secondaryColor: "#8B5CF6",
-    // Accent for special highlights
     accentColor: "#EC4899",
-    // Background colors
     bgPrimary: "#0B0D17",
     bgSecondary: "#111427",
     bgCard: "rgba(17, 20, 39, 0.7)",
-    // Text colors
     textPrimary: "#E2E8F0",
     textSecondary: "#94A3B8",
     textMuted: "#475569",
-    // Glass effect
     glassBg: "rgba(255, 255, 255, 0.03)",
     glassBorder: "rgba(255, 255, 255, 0.08)",
-    // Border radius
     borderRadius: "16px",
-    // Font
     fontFamily: "'Inter', sans-serif"
   },
 
@@ -175,7 +174,6 @@ const CONFIG = {
     enablePreloader: true,
     enableSoundEffects: false,
     particleCount: 50,
-    animationSpeed: 1,    // 0.5 = slow, 1 = normal, 2 = fast
+    animationSpeed: 1
   }
 };
-
