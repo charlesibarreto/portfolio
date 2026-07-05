@@ -22,8 +22,8 @@ const CONFIG = {
       "Experienced in developing automation pipelines, ROS/SLAM workflows, and high‑G calibration systems for mission‑critical platforms.",
       "Delivered multi‑million‑dollar reliability improvements across ASML EUV and DUV platforms through automation, diagnostics, and system‑level optimization."
     ],
-    resumeUrl: "docs/resume.pdf",
-    avatarUrl: "assets/images/profile.jpeg"
+    resumeUrl: "",
+    avatarUrl: "assets/profile.jpg"
   },
 
   // ─── Social Links ───────────────────────────────────────────
@@ -35,16 +35,17 @@ const CONFIG = {
   },
 
   // ─── Skills ─────────────────────────────────────────────────
-  skills: [
-    { name: "Precision Motion Control", icon: "🎯" },
-    { name: "Python / MATLAB Automation", icon: "🐍" },
-    { name: "Robotics (ROS / SLAM)", icon: "🤖" },
-    { name: "System Architecture", icon: "🧩" },
-    { name: "High‑G Testing & Calibration", icon: "📈" },
-    { name: "Siemens NX / SolidWorks", icon: "📐" },
-    { name: "Data Analysis / Diagnostics", icon: "📊" },
-    { name: "CNC / 3D Printing / Electronics", icon: "⚙️" }
-  ],
+    skills: [
+      { name: "Precision Motion Control", level: null, icon: "🎯" },
+      { name: "Python / MATLAB Automation", level: null, icon: "🐍" },
+      { name: "Robotics (ROS / SLAM)", level: null, icon: "🤖" },
+      { name: "System Architecture", level: null, icon: "🧩" },
+      { name: "High‑G Testing & Calibration", level: null, icon: "📈" },
+      { name: "Siemens NX / SolidWorks", level: null, icon: "📐" },
+      { name: "Data Analysis / Diagnostics", level: null, icon: "📊" },
+      { name: "CNC / 3D Printing / Electronics", level: null, icon: "⚙️" }
+    ],
+
 
 
   // ─── Projects ───────────────────────────────────────────────
