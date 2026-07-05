@@ -116,40 +116,38 @@ const CONFIG = {
       company: "ASML EUV & DUV",
       period: "Jan 2021 — Present",
       description: "",
-      tech: [""]
+      tech: []
     },
     {
       role: "Mechanical Engineer (Contractor)",
       company: "ASML EUV",
       period: "May 2020 — Aug 2020",
       description: "",
-      tech: [""]
+      tech: []
     },
-
     {
       role: "Mechanical Engineer Intern",
       company: "ASML EUV",
       period: "May 2019 — Aug 2019",
       description: "",
-      tech: [""]
+      tech: []
     },
-
     {
       role: "Sub‑Team Lead",
       company: "Cornell Cup Robotics",
       period: "Sep 2017 — Dec 2020",
       description: "",
-      tech: [""]
+      tech: []
     },
-
     {
       role: "Team Lead",
       company: "VEX Robotics",
       period: "Sep 2016 — May 2017",
       description: "",
-      tech: [""]
+      tech: []
     }
   ],
+
 
   // ─── Publications ───────────────────────────────────────────
   publications: [
