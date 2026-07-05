@@ -189,10 +189,11 @@ publications: [
 
   // ─── EmailJS (for contact form) ─────────────────────────────
   emailjs: {
-    publicKey: "PROD_EMAILJS_PUBLIC_KEY",
-    serviceId: "PROD_EMAILJS_SERVICE_ID",
-    templateId: "PROD_EMAILJS_TEMPLATE_ID"
+  publicKey: "",
+  serviceId: "",
+  templateId: ""
   },
+
 
   // ─── Advanced Settings ──────────────────────────────────────
   settings: {
