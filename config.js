@@ -96,86 +96,56 @@ const CONFIG = {
   ],
 
 // ─── Skills ─────────────────────────────────────────────────
-  skills: [
-    // Core Expertise
-    { name: "Automation", level: "", icon: "⚙️" },
-    { name: "Software & System Architecture", level: "", icon: "🧩" },
-    { name: "Precision Motion Control", level: "", icon: "🎯" },
-    { name: "Servo Systems", level: "", icon: "🔧" },
-    { name: "SLAM", level: "", icon: "📡" },
+skills: [
+  { name: "Automation & Control Systems", icon: "⚙️" },
+  { name: "Robotics & Autonomy (ROS, SLAM, Motion Control)", icon: "🤖" },
+  { name: "Software Engineering (Python, C++, Git)", icon: "💻" },
+  { name: "Modeling & Simulation (MATLAB/Simulink)", icon: "📊" },
+  { name: "Linux Systems (Ubuntu, Bash, Shell Tools)", icon: "🐧" },
+  { name: "CAD & Design (NX, SolidWorks, Autodesk)", icon: "📐" },
+  { name: "Embedded & Hardware (Arduino, Sensors, DAQ)", icon: "🔌" },
+  { name: "Fabrication & Prototyping (CNC, 3D Printing)", icon: "🖨️" }
+];
 
-    // Domain Expertise
-    { name: "High‑Precision Robotics", level: "", icon: "🤖" },
-    { name: "Lithography Systems", level: "", icon: "🔬" },
-    { name: "Reticle Systems", level: "", icon: "📐" },
-    { name: "High‑Vacuum Systems", level: "", icon: "🌫️" },
 
-    // Software & Tools
-    { name: "Python", level: "", icon: "🐍" },
-    { name: "Linux", level: "", icon: "🐧" },
-    { name: "Windows", level: "", icon: "🪟" },
-    { name: "Git", level: "", icon: "🔗" },
-    { name: "MATLAB / Simulink", level: "", icon: "📊" },
-    { name: "ROS", level: "", icon: "🤖" },
-    { name: "Siemens NX", level: "", icon: "📐" },
-    { name: "SolidWorks", level: "", icon: "🛠️" },
 
-    // Testing & Validation
-    { name: "Sensor Integration", level: "", icon: "📡" },
-    { name: "DAQ", level: "", icon: "📈" },
-    { name: "High‑G Testing", level: "", icon: "🚀" },
-    { name: "Data Analysis", level: "", icon: "📊" },
-    { name: "Engineering Dashboards", level: "", icon: "📉" },
-
-    // Fabrication
-    { name: "Cleanroom Testing", level: "", icon: "🧼" },
-    { name: "CNC Machining", level: "", icon: "⚙️" },
-    { name: "3D Printing", level: "", icon: "🖨️" },
-    { name: "Electronics (Wiring, Soldering, Oscilloscopes)", level: "", icon: "🔌" }
-  ],
 
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
-  {
-    role: "Mechatronics Architect",
-    company: "ASML EUV & DUV",
-    period: "Jan 2021 — Present",
-    description: "",
-    tech: ["Python", "MATLAB", "Shell", "Control Systems", "Robotics", "Diagnostics"]
-  },
+    {
+      role: "Mechatronics Architect",
+      company: "ASML EUV & DUV",
+      period: "Jan 2021 — Present",
+      description: "",
+    }
+    {
+      role: "Mechanical Engineer (Contractor)",
+      company: "ASML EUV",
+      period: "May 2020 — Aug 2020",
+      description: "",
+    },
 
-  {
-    role: "Mechanical Engineer (Contractor)",
-    company: "ASML EUV",
-    period: "May 2020 — Aug 2020",
-    description: "",
-    tech: ["NX", "FEA", "Thermal Design"]
-  },
+    {
+      role: "Mechanical Engineer Intern",
+      company: "ASML EUV",
+      period: "May 2019 — Aug 2019",
+      description: "",
+    },
 
-  {
-    role: "Mechanical Engineer Intern",
-    company: "ASML EUV",
-    period: "May 2019 — Aug 2019",
-    description: "",
-    tech: ["NX", "MATLAB", "FEA"]
-  },
+    {
+      role: "Sub‑Team Lead",
+      company: "Cornell Cup Robotics",
+      period: "Sep 2017 — Dec 2020",
+      description: "",
+    },
 
-  {
-    role: "Sub‑Team Lead",
-    company: "Cornell Cup Robotics",
-    period: "Sep 2017 — Dec 2020",
-    description: "",
-    tech: ["ROS", "Python", "Kinematics", "Robotics"]
-  },
-
-  {
-    role: "Team Lead",
-    company: "VEX Robotics",
-    period: "Sep 2016 — May 2017",
-    description: "",
-    tech: ["Mechanical Design", "Fabrication", "Robotics"]
-  }
-],
+    {
+      role: "Team Lead",
+      company: "VEX Robotics",
+      period: "Sep 2016 — May 2017",
+      description: "",
+    }
+  ],
 
 publications: [
   {
