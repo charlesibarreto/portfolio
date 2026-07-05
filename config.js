@@ -23,13 +23,12 @@ const CONFIG = {
       "Delivered multi‑million‑dollar reliability improvements across ASML EUV and DUV platforms through automation, diagnostics, and system‑level optimization."
     ],
     resumeUrl: "",
-    avatarUrl: "assets/profile.jpg"
+    avatarUrl: "assets/Images/profile.jpg"
   },
 
   // ─── Social Links ───────────────────────────────────────────
   social: {
-    github: "https://github.com/charlesibarreto",
-    linkedin: "https://linkedin.com/in/charlesbarreto",
+    linkedin: "www.linkedin.com/in/charlesbarreto",
     twitter: "",
     email: "charlesibarreto@gmail.com"
   },
@@ -57,7 +56,6 @@ const CONFIG = {
       liveUrl: "#",
       githubUrl: "#",
       image: "",
-      featured: true,
       category: "robotics"
     },
     {
@@ -67,7 +65,6 @@ const CONFIG = {
       liveUrl: "#",
       githubUrl: "#",
       image: "",
-      featured: true,
       category: "automation"
     },
     {
@@ -114,41 +111,63 @@ const CONFIG = {
 
   // ─── Experience / Timeline ──────────────────────────────────
   experience: [
-    {
-      role: "Mechatronics Architect",
-      company: "ASML EUV & DUV",
-      period: "Jan 2021 — Present",
-      tech: ["Python", "MATLAB", "Shell", "Control Systems", "Robotics", "Diagnostics"]
-    },
+  {
+    role: "Mechatronics Architect",
+    company: "ASML EUV & DUV",
+    period: "Jan 2021 — Present",
+    description: "",
+    tech: ["Python", "MATLAB", "Shell", "Control Systems", "Robotics", "Diagnostics"]
+  },
 
-    {
-      role: "Mechanical Engineer (Contractor)",
-      company: "ASML EUV",
-      period: "May 2020 — Aug 2020",
-      tech: ["NX", "FEA", "Thermal Design"]
-    },
+  {
+    role: "Mechanical Engineer (Contractor)",
+    company: "ASML EUV",
+    period: "May 2020 — Aug 2020",
+    description: "",
+    tech: ["NX", "FEA", "Thermal Design"]
+  },
 
-    {
-      role: "Mechanical Engineer Intern",
-      company: "ASML EUV",
-      period: "May 2019 — Aug 2019",
-      tech: ["NX", "MATLAB", "FEA"]
-    },
+  {
+    role: "Mechanical Engineer Intern",
+    company: "ASML EUV",
+    period: "May 2019 — Aug 2019",
+    description: "",
+    tech: ["NX", "MATLAB", "FEA"]
+  },
 
-    {
-      role: "Sub‑Team Lead",
-      company: "Cornell Cup Robotics",
-      period: "Sep 2017 — Dec 2020",
-      tech: ["ROS", "Python", "Kinematics", "Robotics"]
-    },
+  {
+    role: "Sub‑Team Lead",
+    company: "Cornell Cup Robotics",
+    period: "Sep 2017 — Dec 2020",
+    description: "",
+    tech: ["ROS", "Python", "Kinematics", "Robotics"]
+  },
 
-    {
-      role: "Team Lead",
-      company: "VEX Robotics",
-      period: "Sep 2016 — May 2017",
-      tech: ["Mechanical Design", "Fabrication", "Robotics"]
-    }
-  ],
+  {
+    role: "Team Lead",
+    company: "VEX Robotics",
+    period: "Sep 2016 — May 2017",
+    description: "",
+    tech: ["Mechanical Design", "Fabrication", "Robotics"]
+  }
+],
+
+publications: [
+  {
+    title: "Geneva Mechanism–Driven EUV Pod Rotation System",
+    type: "Defensive Publication",
+    date: "Aug 2018",
+    summary: "Designed a self‑locking Geneva mechanism enabling precise 90° pod rotation using a single actuation system.",
+    tags: ["Mechanisms", "EUV", "Precision Motion"]
+  },
+  {
+    title: "System for Detecting Hardware Wear and Software Failures in Lithography Systems",
+    type: "Patent (Filed)",
+    date: "May 2025",
+    summary: "Software‑based monitoring system enabling early detection of component wear and failures to reduce downtime and prevent wafer defects.",
+    tags: ["Diagnostics", "Reliability", "Automation"]
+  }
+],
 
 
   // ─── Theme Configuration ────────────────────────────────────
