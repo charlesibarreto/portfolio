@@ -100,12 +100,12 @@ const Projects = {
   },
 
   /** Handle project card click → open modal */
+  /** Handle project card click → open modal */
   bindModal() {
     const modal = document.getElementById('projectModal');
     const modalContent = document.getElementById('modalContent');
     const backdrop = modal.querySelector('.modal__backdrop');
 
-    // Delegate click on project cards
     document.getElementById('projectsGrid').addEventListener('click', (e) => {
       const card = e.target.closest('.project-card');
       if (!card) return;
@@ -118,6 +118,11 @@ const Projects = {
 
       if (!project) return;
 
+      // Build media block (image zoomed in)
+      const mediaBlock = project.image
+        ? `<img class="modal__image zoomable" src="${project.image}" alt="${project.title}">`
+        : '';
+
       modalContent.innerHTML = `
         <button class="modal__close" aria-label="Close">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
@@ -125,26 +130,19 @@ const Projects = {
           </svg>
         </button>
         <h3 class="modal__title">${project.title}</h3>
-        ${project.image
-          ? `<img class="modal__image zoomable" src="${project.image}" alt="${project.title}">`
-          : ''
-        }
-
+        ${mediaBlock}
         <p class="modal__description">${project.description}</p>
-
         <div class="modal__tech">
           ${project.tech.map(t => `<span>${t}</span>`).join('')}
         </div>
         <div class="modal__links">
           ${project.liveUrl ? `<a href="${project.liveUrl}" class="btn btn--primary" target="_blank" rel="noopener"><span>Media</span></a>` : ''}
-          ${project.githubUrl ? `<a href="${project.githubUrl}" class="btn btn--ghost" target="_blank" rel="noopener"><span>View Code</span></a>` : ''}
         </div>
       `;
 
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
 
-      // Close handlers
       modalContent.querySelector('.modal__close').addEventListener('click', () => this.closeModal());
     });
 
@@ -153,6 +151,7 @@ const Projects = {
       if (e.key === 'Escape') this.closeModal();
     });
   },
+
 
   closeModal() {
     document.getElementById('projectModal').classList.remove('active');
