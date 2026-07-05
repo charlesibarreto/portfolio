@@ -41,7 +41,7 @@ const CONFIG = {
       tech: ["ASML"],
       liveUrl: "https://www.youtube.com/watch?v=4K5V_xLsEQ4",
       githubUrl: "#",
-      image: "",
+      image: "assets/Images/photoEUV.jpg",
       category: "robotics"
     },
     {
