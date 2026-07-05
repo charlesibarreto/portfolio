@@ -115,7 +115,7 @@ const CONFIG = {
       company: "ASML EUV & DUV",
       period: "Jan 2021 — Present",
       description: "",
-    }
+    },
     {
       role: "Mechanical Engineer (Contractor)",
       company: "ASML EUV",
