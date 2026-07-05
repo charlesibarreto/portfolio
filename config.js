@@ -23,7 +23,7 @@ const CONFIG = {
       "Delivered multi‑million‑dollar reliability improvements across ASML EUV and DUV platforms through automation, diagnostics, and system‑level optimization."
     ],
     resumeUrl: "",
-    avatarUrl: "assets/Images/profile.jpg"
+    avatarUrl: "assets/Images/profile2.jpg"
   },
 
   // ─── Social Links ───────────────────────────────────────────
@@ -34,16 +34,44 @@ const CONFIG = {
   },
 
   // ─── Skills ─────────────────────────────────────────────────
-    skills: [
-      { name: "Precision Motion Control", level: null, icon: "🎯" },
-      { name: "Python / MATLAB Automation", level: null, icon: "🐍" },
-      { name: "Robotics (ROS / SLAM)", level: null, icon: "🤖" },
-      { name: "System Architecture", level: null, icon: "🧩" },
-      { name: "High‑G Testing & Calibration", level: null, icon: "📈" },
-      { name: "Siemens NX / SolidWorks", level: null, icon: "📐" },
-      { name: "Data Analysis / Diagnostics", level: null, icon: "📊" },
-      { name: "CNC / 3D Printing / Electronics", level: null, icon: "⚙️" }
-    ],
+  skills: [
+    // Core Expertise
+    { name: "Automation", level: "", icon: "⚙️" },
+    { name: "Software & System Architecture", level: "", icon: "🧩" },
+    { name: "Precision Motion Control", level: "", icon: "🎯" },
+    { name: "Servo Systems", level: "", icon: "🔧" },
+    { name: "SLAM", level: "", icon: "📡" },
+
+    // Domain Expertise
+    { name: "High‑Precision Robotics", level: "", icon: "🤖" },
+    { name: "Lithography Systems", level: "", icon: "🔬" },
+    { name: "Reticle Systems", level: "", icon: "📐" },
+    { name: "High‑Vacuum Systems", level: "", icon: "🌫️" },
+
+    // Software & Tools
+    { name: "Python", level: "", icon: "🐍" },
+    { name: "Linux", level: "", icon: "🐧" },
+    { name: "Windows", level: "", icon: "🪟" },
+    { name: "Git", level: "", icon: "🔗" },
+    { name: "MATLAB / Simulink", level: "", icon: "📊" },
+    { name: "ROS", level: "", icon: "🤖" },
+    { name: "Siemens NX", level: "", icon: "📐" },
+    { name: "SolidWorks", level: "", icon: "🛠️" },
+
+    // Testing & Validation
+    { name: "Sensor Integration", level: "", icon: "📡" },
+    { name: "DAQ", level: "", icon: "📈" },
+    { name: "High‑G Testing", level: "", icon: "🚀" },
+    { name: "Data Analysis", level: "", icon: "📊" },
+    { name: "Engineering Dashboards", level: "", icon: "📉" },
+
+    // Fabrication
+    { name: "Cleanroom Testing", level: "", icon: "🧼" },
+    { name: "CNC Machining", level: "", icon: "⚙️" },
+    { name: "3D Printing", level: "", icon: "🖨️" },
+    { name: "Electronics (Wiring, Soldering, Oscilloscopes)", level: "", icon: "🔌" }
+  ],
+
 
 
 
