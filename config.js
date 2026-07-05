@@ -194,4 +194,4 @@ publications: [
     particleCount: 50,
     animationSpeed: 1
   }
-},
+};
