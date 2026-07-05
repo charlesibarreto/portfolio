@@ -14,7 +14,7 @@ const CONFIG = {
   name: "Charles Barreto",
   title: "Mechatronics Architect",
   tagline: "Building high‑performance robotics, automation systems, and precision motion platforms.",
-  roles: ["Mechatronics Architect", "Robotics Engineer", "Automation Developer", "System Integrator"],
+  roles: ["Mechatronics Architect", "Robotics Specialist", "Automation Developer", "System Integrator"],
 
   about: {
     description: [
@@ -54,22 +54,22 @@ const CONFIG = {
       category: "automation"
     },
     {
-      title: "High‑G Calibration & Diagnostics",
+      title: "Robotic Strong Arm",
       description: "Built high‑precision calibration workflows for 6‑DOF systems operating under extreme acceleration environments.",
-      tech: ["MATLAB", "Python", "Data Analysis"],
+      tech: [""],
       liveUrl: "#",
       githubUrl: "#",
-      image: "",
+      image: "assets/Images/photostrongarm.png",
       featured: false,
       category: "robotics"
     },
     {
-      title: "Cornell Cup Robotics Manipulator",
+      title: "Robotic 6DOF Precision Arm",
       description: "Led development of a 6‑DOF precision manipulator and 4‑DOF robotic arm with ROS‑based localization and control.",
-      tech: ["ROS", "Python", "Kinematics"],
+      tech: [""],
       liveUrl: "#",
       githubUrl: "#",
-      image: "",
+      image: "assets/Images/photoprecisionarm.png",
       featured: false,
       category: "robotics"
     },
