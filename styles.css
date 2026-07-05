@@ -856,80 +856,6 @@ body.custom-cursor .cursor {
   transform: scale(1.05);
 }
 
-/* ─── PUBLICATIONS / PATENTS ───────────────────────────────── */
-
-.pub-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: var(--space-xl);
-}
-
-.pub-card {
-  padding: var(--space-xl);
-  background: var(--bg-card);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius);
-  backdrop-filter: blur(10px);
-  transition: all var(--duration-normal) var(--ease-out);
-}
-
-.pub-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--primary);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3),
-              0 0 60px rgba(99, 102, 241, 0.1);
-}
-
-.pub-card__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-md);
-}
-
-.pub-card__title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.pub-card__type {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--primary);
-  opacity: 0.9;
-}
-
-.pub-card__meta {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-bottom: var(--space-md);
-}
-
-.pub-card__summary {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  margin-bottom: var(--space-lg);
-}
-
-.pub-card__tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-xs);
-}
-
-.pub-tag {
-  padding: 4px 10px;
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-}
-
-
 /* Auto-generated gradient pattern for cards without images */
 .project-card__pattern {
   width: 100%;
@@ -1255,17 +1181,18 @@ body.custom-cursor .cursor {
 }
 
 .contact__social-item {
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* space between icon + label */
-  padding: 0 1rem; /* widen bubble for text */
-}
-
-.contact__label {
-  font-size: 0.95rem;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
   color: var(--text-secondary);
+  font-size: 1.1rem;
+  transition: all var(--duration-fast) var(--ease-out);
 }
-
 
 .contact__social-item:hover {
   color: #fff;
