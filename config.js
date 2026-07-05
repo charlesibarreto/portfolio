@@ -33,48 +33,6 @@ const CONFIG = {
     email: "charlesibarreto@gmail.com"
   },
 
-  // ─── Skills ─────────────────────────────────────────────────
-  skills: [
-    // Core Expertise
-    { name: "Automation", level: "", icon: "⚙️" },
-    { name: "Software & System Architecture", level: "", icon: "🧩" },
-    { name: "Precision Motion Control", level: "", icon: "🎯" },
-    { name: "Servo Systems", level: "", icon: "🔧" },
-    { name: "SLAM", level: "", icon: "📡" },
-
-    // Domain Expertise
-    { name: "High‑Precision Robotics", level: "", icon: "🤖" },
-    { name: "Lithography Systems", level: "", icon: "🔬" },
-    { name: "Reticle Systems", level: "", icon: "📐" },
-    { name: "High‑Vacuum Systems", level: "", icon: "🌫️" },
-
-    // Software & Tools
-    { name: "Python", level: "", icon: "🐍" },
-    { name: "Linux", level: "", icon: "🐧" },
-    { name: "Windows", level: "", icon: "🪟" },
-    { name: "Git", level: "", icon: "🔗" },
-    { name: "MATLAB / Simulink", level: "", icon: "📊" },
-    { name: "ROS", level: "", icon: "🤖" },
-    { name: "Siemens NX", level: "", icon: "📐" },
-    { name: "SolidWorks", level: "", icon: "🛠️" },
-
-    // Testing & Validation
-    { name: "Sensor Integration", level: "", icon: "📡" },
-    { name: "DAQ", level: "", icon: "📈" },
-    { name: "High‑G Testing", level: "", icon: "🚀" },
-    { name: "Data Analysis", level: "", icon: "📊" },
-    { name: "Engineering Dashboards", level: "", icon: "📉" },
-
-    // Fabrication
-    { name: "Cleanroom Testing", level: "", icon: "🧼" },
-    { name: "CNC Machining", level: "", icon: "⚙️" },
-    { name: "3D Printing", level: "", icon: "🖨️" },
-    { name: "Electronics (Wiring, Soldering, Oscilloscopes)", level: "", icon: "🔌" }
-  ],
-
-
-
-
   // ─── Projects ───────────────────────────────────────────────
   projects: [
     {
@@ -135,6 +93,45 @@ const CONFIG = {
       featured: false,
       category: "automation"
     }
+  ],
+
+// ─── Skills ─────────────────────────────────────────────────
+  skills: [
+    // Core Expertise
+    { name: "Automation", level: "", icon: "⚙️" },
+    { name: "Software & System Architecture", level: "", icon: "🧩" },
+    { name: "Precision Motion Control", level: "", icon: "🎯" },
+    { name: "Servo Systems", level: "", icon: "🔧" },
+    { name: "SLAM", level: "", icon: "📡" },
+
+    // Domain Expertise
+    { name: "High‑Precision Robotics", level: "", icon: "🤖" },
+    { name: "Lithography Systems", level: "", icon: "🔬" },
+    { name: "Reticle Systems", level: "", icon: "📐" },
+    { name: "High‑Vacuum Systems", level: "", icon: "🌫️" },
+
+    // Software & Tools
+    { name: "Python", level: "", icon: "🐍" },
+    { name: "Linux", level: "", icon: "🐧" },
+    { name: "Windows", level: "", icon: "🪟" },
+    { name: "Git", level: "", icon: "🔗" },
+    { name: "MATLAB / Simulink", level: "", icon: "📊" },
+    { name: "ROS", level: "", icon: "🤖" },
+    { name: "Siemens NX", level: "", icon: "📐" },
+    { name: "SolidWorks", level: "", icon: "🛠️" },
+
+    // Testing & Validation
+    { name: "Sensor Integration", level: "", icon: "📡" },
+    { name: "DAQ", level: "", icon: "📈" },
+    { name: "High‑G Testing", level: "", icon: "🚀" },
+    { name: "Data Analysis", level: "", icon: "📊" },
+    { name: "Engineering Dashboards", level: "", icon: "📉" },
+
+    // Fabrication
+    { name: "Cleanroom Testing", level: "", icon: "🧼" },
+    { name: "CNC Machining", level: "", icon: "⚙️" },
+    { name: "3D Printing", level: "", icon: "🖨️" },
+    { name: "Electronics (Wiring, Soldering, Oscilloscopes)", level: "", icon: "🔌" }
   ],
 
   // ─── Experience / Timeline ──────────────────────────────────
@@ -215,12 +212,6 @@ publications: [
     fontFamily: "'Inter', sans-serif"
   },
 
-  // ─── EmailJS (for contact form) ─────────────────────────────
-  emailjs: {
-  publicKey: "",
-  serviceId: "",
-  templateId: ""
-  },
 
 
   // ─── Advanced Settings ──────────────────────────────────────
