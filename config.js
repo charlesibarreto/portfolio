@@ -168,22 +168,22 @@ const CONFIG = {
   ],
 
 
-    // ─── Theme Configuration ────────────────────────────────────
-    theme: {
-      primaryColor: "#6366F1",
-      secondaryColor: "#8B5CF6",
-      accentColor: "#EC4899",
-      bgPrimary: "#0B0D17",
-      bgSecondary: "#111427",
-      bgCard: "rgba(17, 20, 39, 0.7)",
-      textPrimary: "#E2E8F0",
-      textSecondary: "#94A3B8",
-      textMuted: "#475569",
-      glassBg: "rgba(255, 255, 255, 0.03)",
-      glassBorder: "rgba(255, 255, 255, 0.08)",
-      borderRadius: "16px",
-      fontFamily: "'Inter', sans-serif"
-    },
+  // ─── Theme Configuration ────────────────────────────────────
+  theme: {
+    primaryColor: "#6366F1",
+    secondaryColor: "#8B5CF6",
+    accentColor: "#EC4899",
+    bgPrimary: "#0B0D17",
+    bgSecondary: "#111427",
+    bgCard: "rgba(17, 20, 39, 0.7)",
+    textPrimary: "#E2E8F0",
+    textSecondary: "#94A3B8",
+    textMuted: "#475569",
+    glassBg: "rgba(255, 255, 255, 0.03)",
+    glassBorder: "rgba(255, 255, 255, 0.08)",
+    borderRadius: "16px",
+    fontFamily: "'Inter', sans-serif"
+  },
 
 
 
