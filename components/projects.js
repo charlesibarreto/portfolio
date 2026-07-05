@@ -125,7 +125,13 @@ const Projects = {
           </svg>
         </button>
         <h3 class="modal__title">${project.title}</h3>
+        ${project.image
+          ? `<img class="modal__image zoomable" src="${project.image}" alt="${project.title}">`
+          : ''
+        }
+
         <p class="modal__description">${project.description}</p>
+
         <div class="modal__tech">
           ${project.tech.map(t => `<span>${t}</span>`).join('')}
         </div>
