@@ -96,16 +96,16 @@ const CONFIG = {
   ],
 
   // ─── Skills ─────────────────────────────────────────────────
-    skills: [
-      { name: "Automation & Control Systems", icon: "⚙️" },
-      { name: "Robotics & Autonomy (ROS, SLAM, Motion Control)", icon: "🤖" },
-      { name: "Software Engineering (Python, C++, Git)", icon: "💻" },
-      { name: "Modeling & Simulation (MATLAB/Simulink)", icon: "📊" },
-      { name: "Linux Systems (Ubuntu, Bash, Shell Tools)", icon: "🐧" },
-      { name: "CAD & Design (NX, SolidWorks, Autodesk)", icon: "📐" },
-      { name: "Embedded & Hardware (Arduino, Sensors, DAQ)", icon: "🔌" },
-      { name: "Fabrication & Prototyping (CNC, 3D Printing)", icon: "🖨️" }
-    ],
+  skills: [
+     { name: "Automation & Control Systems", icon: "⚙️" },
+     { name: "Robotics & Autonomy (ROS, SLAM, Motion Control)", icon: "🤖" },
+     { name: "Software Engineering (Python, C++, Git)", icon: "💻" },
+     { name: "Modeling & Simulation (MATLAB/Simulink)", icon: "📊" },
+     { name: "Linux Systems (Ubuntu, Bash, Shell Tools)", icon: "🐧" },
+     { name: "CAD & Design (NX, SolidWorks, Autodesk)", icon: "📐" },
+     { name: "Embedded & Hardware (Arduino, Sensors, DAQ)", icon: "🔌" },
+     { name: "Fabrication & Prototyping (CNC, 3D Printing)", icon: "🖨️" }
+   ],
 
 
   // ─── Experience / Timeline ──────────────────────────────────
@@ -145,40 +145,41 @@ const CONFIG = {
     }
   ],
 
-publications: [
-  {
-    title: "Geneva Mechanism–Driven EUV Pod Rotation System",
-    type: "Defensive Publication",
-    date: "Aug 2018",
-    summary: "Designed a self‑locking Geneva mechanism enabling precise 90° pod rotation using a single actuation system.",
-    tags: ["Mechanisms", "EUV", "Precision Motion"]
-  },
-  {
-    title: "System for Detecting Hardware Wear and Software Failures in Lithography Systems",
-    type: "Patent (Filed)",
-    date: "May 2025",
-    summary: "Software‑based monitoring system enabling early detection of component wear and failures to reduce downtime and prevent wafer defects.",
-    tags: ["Diagnostics", "Reliability", "Automation"]
-  }
-],
+  // ─── Publications ───────────────────────────────────────────
+  publications: [
+    {
+      title: "Geneva Mechanism–Driven EUV Pod Rotation System",
+      type: "Defensive Publication",
+      date: "Aug 2018",
+      summary: "Designed a self‑locking Geneva mechanism enabling precise 90° pod rotation using a single actuation system.",
+      tags: ["Mechanisms", "EUV", "Precision Motion"]
+    },
+    {
+      title: "System for Detecting Hardware Wear and Software Failures in Lithography Systems",
+      type: "Patent (Filed)",
+      date: "May 2025",
+      summary: "Software‑based monitoring system enabling early detection of component wear and failures to reduce downtime and prevent wafer defects.",
+      tags: ["Diagnostics", "Reliability", "Automation"]
+    }
+  ],
 
 
-  // ─── Theme Configuration ────────────────────────────────────
-  theme: {
-    primaryColor: "#6366F1",
-    secondaryColor: "#8B5CF6",
-    accentColor: "#EC4899",
-    bgPrimary: "#0B0D17",
-    bgSecondary: "#111427",
-    bgCard: "rgba(17, 20, 39, 0.7)",
-    textPrimary: "#E2E8F0",
-    textSecondary: "#94A3B8",
-    textMuted: "#475569",
-    glassBg: "rgba(255, 255, 255, 0.03)",
-    glassBorder: "rgba(255, 255, 255, 0.08)",
-    borderRadius: "16px",
-    fontFamily: "'Inter', sans-serif"
-  },
+    // ─── Theme Configuration ────────────────────────────────────
+    theme: {
+      primaryColor: "#6366F1",
+      secondaryColor: "#8B5CF6",
+      accentColor: "#EC4899",
+      bgPrimary: "#0B0D17",
+      bgSecondary: "#111427",
+      bgCard: "rgba(17, 20, 39, 0.7)",
+      textPrimary: "#E2E8F0",
+      textSecondary: "#94A3B8",
+      textMuted: "#475569",
+      glassBg: "rgba(255, 255, 255, 0.03)",
+      glassBorder: "rgba(255, 255, 255, 0.08)",
+      borderRadius: "16px",
+      fontFamily: "'Inter', sans-serif"
+    },
 
 
 
