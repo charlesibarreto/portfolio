@@ -93,7 +93,7 @@ const CONFIG = {
       githubUrl: "",
       image: "assets/Images/photocubecraze.jpg",
       featured: false,
-      category: "mechanical"
+      category: "robotics"
     },
     {
       title: "Extreme Ultra-Violet Lithography (5 to 15nm)",
