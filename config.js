@@ -36,21 +36,33 @@ const CONFIG = {
   // ─── Projects ───────────────────────────────────────────────
   projects: [
     {
-      title: "Extreme Ultra-Violet Lithography (5 to 15nm)",
-      description: "Developed autonomous robotics subsystems and high‑precision control algorithms for next‑generation EUV platforms, improving 6‑DOF motion stability under extreme 13G–21G dynamic loads.",
-      tech: ["ASML"],
-      liveUrl: "https://www.youtube.com/watch?v=4K5V_xLsEQ4",
+      title: "Autonomous Mobile Robots (SLAM)",
+      description: "Implemented SLAM‑based navigation for autonomous mobile robots, integrating mapping, localization, and obstacle‑aware path planning for dynamic environments.",
+      tech: [""],
+      liveUrl: "",
       githubUrl: "",
-      image: "assets/Images/photoEUV.jpg",
-      category: "robotics"
+      image: "",
+      featured: false,
+      category: "automation"
     },
     {
-      title: "Deep Ultra-Violet Lithography (248nm)",
-      description: "Built Python/MATLAB automation pipelines that reduced analysis time by ~96% and enabled over $3M in annual reliability improvements across DUV manufacturing operations.",
-      tech: ["ASML"],
-      liveUrl: "https://www.youtube.com/watch?v=MiUHjLxm3V0&t=1319s",
+      title: "Aerodynamic Glider",
+      description: "Conceptual aerodynamic glider design exploring lightweight structures, stability, and passive flight dynamics.",
+      tech: [""],
+      liveUrl: "",
       githubUrl: "",
-      image: "assets/Images/photoDUV.png",
+      image: "assets/Images/gifAERO.gif",
+      featured: false,
+      category: "Mechanical"
+    },
+    {
+      title: "VEX Robotics",
+      description: "Built competitive VEX robots focused on autonomous routines, high‑speed actuation, and reliable match‑ready mechanisms.",
+      tech: [""],
+      liveUrl: "",
+      githubUrl: "",
+      image: "assets/Images/gifVEX.gif",
+      featured: false,
       category: "automation"
     },
     {
@@ -84,33 +96,21 @@ const CONFIG = {
       category: "mechanical"
     },
     {
-      title: "Autonomous Mobile Robots (SLAM)",
-      description: "Implemented SLAM‑based navigation for autonomous mobile robots, integrating mapping, localization, and obstacle‑aware path planning for dynamic environments.",
-      tech: [""],
-      liveUrl: "",
+      title: "Extreme Ultra-Violet Lithography (5 to 15nm)",
+      description: "Developed autonomous robotics subsystems and high‑precision control algorithms for next‑generation EUV platforms, improving 6‑DOF motion stability under extreme 13G–21G dynamic loads.",
+      tech: ["ASML"],
+      liveUrl: "https://www.youtube.com/watch?v=4K5V_xLsEQ4",
       githubUrl: "",
-      image: "",
-      featured: false,
-      category: "automation"
+      image: "assets/Images/photoEUV.jpg",
+      category: "robotics"
     },
     {
-      title: "Aerodynamic Glider",
-      description: "Conceptual aerodynamic glider design exploring lightweight structures, stability, and passive flight dynamics.",
-      tech: [""],
-      liveUrl: "",
+      title: "Deep Ultra-Violet Lithography (248nm)",
+      description: "Built Python/MATLAB automation pipelines that reduced analysis time by ~96% and enabled over $3M in annual reliability improvements across DUV manufacturing operations.",
+      tech: ["ASML"],
+      liveUrl: "https://www.youtube.com/watch?v=MiUHjLxm3V0&t=1319s",
       githubUrl: "",
-      image: "assets/Images/gifAERO.gif",
-      featured: false,
-      category: "Mechanical"
-    },
-    {
-      title: "VEX Robotics",
-      description: "Built competitive VEX robots focused on autonomous routines, high‑speed actuation, and reliable match‑ready mechanisms.",
-      tech: [""],
-      liveUrl: "",
-      githubUrl: "",
-      image: "assets/Images/gifVEX.gif",
-      featured: false,
+      image: "assets/Images/photoDUV.png",
       category: "automation"
     }
   ],
@@ -174,17 +174,15 @@ const CONFIG = {
   publications: [
     {
       title: "Geneva Mechanism–Driven EUV Pod Rotation System",
-      type: "Defensive Publication",
       date: "Aug 2018",
       summary: "Designed a self-locking Geneva mechanism enabling precise 90° pod rotation using a single actuation system.",
-      tags: ["Mechanisms", "EUV", "Precision Motion"]
+      tags: ["Defensive Publication"]
     },
     {
       title: "System for Detecting Hardware Wear and Software Failures in Lithography Systems",
-      type: "Patent (Filed)",
       date: "May 2025",
       summary: "Software-based monitoring system enabling early detection of component wear and failures to reduce downtime and prevent wafer defects.",
-      tags: ["Diagnostics", "Reliability", "Automation"]
+      tags: ["Patent (Filed)"]
     }
   ],
 
