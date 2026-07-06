@@ -47,7 +47,7 @@ const CONFIG = {
     },
     {
       title: "Aerodynamic Glider",
-      description: "Conceptual aerodynamic glider design exploring lightweight structures, stability, and passive flight dynamics.",
+      description: "Design and Built a conceptual aerodynamic glider exploring lightweight structures, stability, and passive flight dynamics.",
       tech: [""],
       liveUrl: "",
       githubUrl: "",
@@ -87,7 +87,7 @@ const CONFIG = {
     },
     {
       title: "Cube Craze Robot",
-      description: "Developed a high‑speed robotic system capable of autonomous cube manipulation, integrating mechanical design, embedded control, and reliability‑focused validation.",
+      description: "Competed and won a robotics competition by building an autonomous robot for cube manipulation with mechanical design and servo control",
       tech: [""],
       liveUrl: "https://www.linkedin.com/posts/earlier-this-week-asml-wilton-employees-share-7004172295954931712-NNMd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACOy5OkBsV2fSatr2glKyxd3cxfJhYByUl4",
       githubUrl: "",
