@@ -18,8 +18,8 @@ const CONFIG = {
 
   about: {
     description: [
-      "Mechatronics Architect specializing in precision motion control, autonomous robotics, and multi‑domain system integration.",
-      "Experienced in developing automation pipelines, ROS/SLAM workflows, and high‑G calibration systems for mission‑critical platforms.",
+      "Mechatronics Architect and Robotics Specialist specializing in precision motion control, autonomous robotics, and multi‑domain system integration.",
+      "Experienced in developing automation software, ROS/SLAM workflows, and high‑G calibration systems for mission‑critical platforms.",
       "Delivered multi‑million‑dollar reliability improvements across ASML EUV and DUV platforms through automation, diagnostics, and system‑level optimization."
     ],
     resumeUrl: "",
