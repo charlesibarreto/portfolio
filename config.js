@@ -174,12 +174,14 @@ const CONFIG = {
   publications: [
     {
       title: "Geneva Mechanism–Driven EUV Pod Rotation System",
+      type: "",
       date: "Aug 2018",
       summary: "Designed a self-locking Geneva mechanism enabling precise 90° pod rotation using a single actuation system.",
       tags: ["Defensive Publication"]
     },
     {
       title: "System for Detecting Hardware Wear and Software Failures in Lithography Systems",
+      type: "",
       date: "May 2025",
       summary: "Software-based monitoring system enabling early detection of component wear and failures to reduce downtime and prevent wafer defects.",
       tags: ["Patent (Filed)"]
