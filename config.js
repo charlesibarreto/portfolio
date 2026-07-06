@@ -53,7 +53,7 @@ const CONFIG = {
       githubUrl: "",
       image: "assets/Images/gifAERO.gif",
       featured: false,
-      category: "Mechanical"
+      category: "mechanical"
     },
     {
       title: "VEX Robotics",
