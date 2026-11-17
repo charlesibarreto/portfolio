@@ -106,7 +106,7 @@ const CONFIG = {
     },
     {
       title: "Deep Ultra-Violet Lithography (248nm)",
-      description: "Built Python/MATLAB automation pipelines that reduced analysis time by ~96% and enabled over $3M in annual reliability improvements across DUV manufacturing operations.",
+      description: "Led nanometer-precision control systems, software solutions, and multidisciplinary teams",
       tech: ["ASML"],
       liveUrl: "https://www.youtube.com/watch?v=MiUHjLxm3V0&t=1319s",
       githubUrl: "",
